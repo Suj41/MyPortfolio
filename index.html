@@ -220,7 +220,7 @@
                 <form action="" class="contact__form" id="contact-form">
                     <input type="text" placeholder="Name" class="contact__input" name="name">
                     <input type="email" placeholder="Email" class="contact__input" name="email">
-                    <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Message"></textarea>
                     <input type="submit" value="Message" class="contact__button button">
                 </form>
             </div>
@@ -247,29 +247,6 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
-    <!-- ====Email JS ==== -->
-    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
-    <script>
-  // Step 2: Initialize EmailJS with your Public Key
-  (function () {
-    emailjs.init("BNYzF92ZQcZx8KQ7l"); 
-  })();
-
-  // Step 3: Handle form submission
-  document.getElementById("contact-form").addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevents page reload
-
-    emailjs.sendForm("service_squ81qh", "template_4x8pr4v", this)
-      .then(() => {
-        alert("Message sent successfully!");
-      }, (error) => {
-        alert("Failed to send message: " + JSON.stringify(error));
-      });
-  });
-
-
-</script> -->
 
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="assets/js/contact.js"></script>
